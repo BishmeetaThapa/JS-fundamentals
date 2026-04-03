@@ -61,3 +61,61 @@ console.log(Fruits.includes("cat"));
      let arr2=["a","b","c","d"]
      let merged=arr1.concat(arr2)
      console.log(merged)
+
+     //Double each number in array [1,2,3,4]
+
+     array=[1,2,3,4]
+     const double=array.map(num=>num*2);
+     console.log(double)
+//Filter even numbers from [10,15,20,25,30]
+
+const number=[10,15,20,25,30];
+const even=number.filter(n=>n%2===0);
+console.log(even)
+
+//Find sum of [5,10,15,20]
+
+const num=[5,20,15,20];
+const sum=num.reduce((a,n)=>a+n,0);
+console.log(sum)
+//Convert names to uppercase
+const name="bishmeeta";
+const upper=name.toUpperCase();
+console.log(upper);
+
+//Create new array with only numbers > 10
+num3=[3,6,9,12,20,34]
+const greaterThan=num3.filter(num=> num>10)
+console.log(greaterThan)
+
+//Create an array of 5 cities and print it.
+const city=["kathmandu","pokhara","hetauda","itahari","jhapa"];
+console.log(city)
+
+//print first and last elements.
+console.log(city[0])
+console.log(city.at(-1))
+
+//Add elements
+//Add "grape" to the end
+
+
+const fruits = ["apple", "banana", "mango", "orange"];
+fruits.push("grape")
+console.log(fruits);
+
+//Add "kiwi" to the beginning
+fruits.unshift("kiwi");
+console.log(fruits);
+
+//Remove last element
+fruits.pop();
+console.log(fruits);
+
+//Remove first element
+fruits.shift()
+console.log(fruits);
+
+//Find how many items are in:
+const colors = ["red", "blue", "green", "yellow"];
+console.log(colors.length)
